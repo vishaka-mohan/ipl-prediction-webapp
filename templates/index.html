@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>Kentarooooooooo</h1>
-    <a href="/score">Predict score</a>
-    <br>
-    <a href="/winner">Predict winner</a>
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3" style="background-color: black;opacity: 0.6;">IPL SCORE PREDICTION AND WINNER PREDICTION</h1>
+            <p class="lead mb-0"><a href="/score"><button type="button" class="btn btn-dark btn-lg">Predict score</button></a></p>
+            <br>
+            <p class="lead mb-0"><a href="/winner"><button type="button" class="btn btn-dark btn-lg">Predict winner</button></a></p>
+          </div>
+        </div>
+      </div>
+       
     
-
-
-    </form>
 </body>
 </html>

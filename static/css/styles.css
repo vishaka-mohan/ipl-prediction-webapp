@@ -1,0 +1,22 @@
+
+html, body {
+	height: 100%;
+	background: #000;
+	background-image: url("/static/img/bg1.jpg");
+	
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+	font-family: Red Hat Display;
+	
+
+	
+	color: #fff;
+}
+
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
