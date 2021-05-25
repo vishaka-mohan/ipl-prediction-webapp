@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-svm = pickle.load(open('/home/dazai0211/weights/winner_svm.sav', 'rb'))
+svm = pickle.load(open('./weights/winner_svm.sav', 'rb'))
 
 
 def predict_result(team1="Chennai Super Kings", team2="Royal Challengers Bangalore", team1_toss_win=1,team1_bat=1, venue="M Chinnaswamy Stadium"):

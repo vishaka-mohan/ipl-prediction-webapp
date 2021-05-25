@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-adb_regressor = pickle.load(open('/home/dazai0211/weights/adb_regression.sav', 'rb'))
+adb_regressor = pickle.load(open('./weights/adb_regression.sav', 'rb'))
 
 def predict_score(venue='Wankhede Stadium', batting_team='Chennai Super Kings', bowling_team='Mumbai Indians', overs=5.1, runs=50, wickets=0, runs_in_prev_5=50, wickets_in_prev_5=0, striker=15, non_striker=15):
   temp_array = list()
